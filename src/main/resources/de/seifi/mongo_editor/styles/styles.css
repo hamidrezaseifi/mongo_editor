@@ -1,0 +1,85 @@
+.button {
+    -fx-text-fill: blue;
+}
+
+.loading-label-title{
+    -fx-font-family: Arial, Helvetica, sans-serif;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;	
+    -fx-margin-bottom: 10px;
+    -fx-padding: 10px 0;
+}
+
+.loading-label-message{
+    -fx-font-family: Arial, Helvetica, sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: normal;	
+    -fx-padding: 10px 0 30px 0;
+}
+
+.add-connection-button {
+	         
+    -fx-background-image: url('../images/add.png');
+    
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;   
+    -fx-padding: 0;
+}
+
+.delete-connection-button {
+	         
+    -fx-background-image: url('../images/trash.png');
+    
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;   
+    -fx-padding: 0;
+}
+
+.reload-toolbox-button{
+	         
+    -fx-background-image: url('../images/reload.png');
+    
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;   
+    -fx-padding: 0;
+	-fx-width: 28px;
+	-fx-height: 28px;
+	-fx-margin: 0 3px
+	
+}
+
+.close-toolbox-button{
+	         
+    -fx-background-image: url('../images/cancel.png');
+    
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;   
+    -fx-padding: 0;
+	-fx-width: 28px;
+	-fx-height: 28px;
+	-fx-margin: 0 3px
+	
+}
+
+.save-toolbox-button{
+	         
+    -fx-background-image: url('../images/save.png');
+    
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;   
+    -fx-padding: 0;
+	-fx-width: 28px;
+	-fx-height: 28px;
+	-fx-margin: 0 3px
+}
+
+
+.menu {
+    -fx-padding: 3px 5px 3px 5px;
+	
+}
